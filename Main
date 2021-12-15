@@ -1,0 +1,169 @@
+wait(1)
+local create = loadstring(game:HttpGet("https://ghostbin.com/V6msI/raw"))()
+local Window = create:Win("DARKNESS")
+local Tap1 = Window:Taps("Main")
+local Tap2 = Window:Taps("Misc")
+local page1 = Tap1:newpage()
+local page2 = Tap1:newpage()
+local page3 = Tap2:newpage()
+local page4 = Tap2:newpage()
+
+page3:Label("Main")
+page3:Button(
+    "FPS Boost",
+    function(t)
+        local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+        local g = game
+        local w = g.Workspace
+        local l = g.Lighting
+        local t = w.Terrain
+        t.WaterWaveSize = 0
+        t.WaterWaveSpeed = 0
+        t.WaterReflectance = 0
+        t.WaterTransparency = 0
+        l.GlobalShadows = false
+        l.FogEnd = 9e9
+        l.Brightness = 0
+        settings().Rendering.QualityLevel = "Level01"
+        for i, v in pairs(g:GetDescendants()) do
+            if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+            elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+                v.Transparency = 1
+            elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+                v.Lifetime = NumberRange.new(0)
+            elseif v:IsA("Explosion") then
+                v.BlastPressure = 1
+                v.BlastRadius = 1
+            elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
+                v.Enabled = false
+            elseif v:IsA("MeshPart") then
+                v.Material = "Plastic"
+                v.Reflectance = 0
+                v.TextureID = 10385902758728957
+            end
+        end
+    end
+)
+
+page3:Button(
+    "Server Browser",
+    function(t)
+        loadstring(game:HttpGetAsync("https://ghostbin.com/B587q/raw"))()
+    end
+)
+page3:Button(
+    "Inf Yield",
+    function(t)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end
+)
+page3:Button(
+    "Dark Dex",
+    function(t)
+        loadstring(game:HttpGet(('https://pastebin.com/raw/Ht4zRXj8'),true))()
+    end
+)
+page3:Button(
+    "FE KORBLOX R6",
+    function(t)
+        while wait() do
+            pcall(
+                function()
+                    game.Players.LocalPlayer.Character["Right Leg"]:Destroy()
+                end
+            )
+        end
+    end
+)
+page3:Button(
+    "FE KORBLOX R15",
+    function(t)
+        while wait() do
+            pcall(
+                function()
+                    game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()
+                    game.Players.LocalPlayer.Character.RightLowerLeg:Destroy()
+                    game.Players.LocalPlayer.Character.RightFoot:Destroy()
+                    game.Players.LocalPlayer.Character.RightFoot:Destroy()
+                end
+            )
+        end
+    end
+)
+
+page3:Button(
+    "SERVER HOP",
+    function(t)
+        loadstring(
+            game:HttpGet("https://raw.githubusercontent.com/XxzPoomzxX/ServerHop-Script/main/serverhop.lua", true)
+        )()
+    end
+)
+
+page3:Button(
+    "SERVER REJOIN",
+    function(t)
+        local ts = game:GetService("TeleportService")
+
+        local p = game:GetService("Players").LocalPlayer
+
+        ts:Teleport(game.PlaceId, p)
+    end
+)
+
+page3:Button(
+    "REMOTE SPY",
+    function(t)
+        loadstring(game:HttpGet("https://ghostbin.com/ETpBA/raw", true))()
+    end
+)
+
+page3:Button(
+    "FullBright",
+    function(t)
+        loadstring(game:HttpGet("https://ghostbin.com/LOor8/raw", true))()
+    end
+)
+
+page3:Button(
+    "Freecam",
+    function(t)
+        loadstring(game:HttpGet("https://ghostbin.com/iwEjK/raw", true))()
+    end
+)
+
+page3:Button(
+    "FiveM Lighting",
+    function(t)
+        loadstring(game:HttpGet("https://ghostbin.com/wYAbQ/raw", true))()
+    end
+)
+page3:Button(
+    "AIMLOCK",
+    function(t)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/main/README.md", true))()
+    end
+)
+
+--totarget(CFrame.new(4849.29883, 5.65138149, 719.611877))
+function totarget(CFgo)
+    local tween_s = game:service "TweenService"
+    local info =
+        TweenInfo.new(
+        (game:GetService("Players")["LocalPlayer"].Character.HumanoidRootPart.Position - CFgo.Position).Magnitude / 300,
+        Enum.EasingStyle.Linear
+    )
+    local tween, err =
+        pcall(
+        function()
+            tween = tween_s:Create(game.Players.LocalPlayer.Character["HumanoidRootPart"], info, {CFrame = CFgo})
+            tween:Play()
+        end
+    )
+    if not tween then
+        return err
+    end
+end
+page3:Line()
