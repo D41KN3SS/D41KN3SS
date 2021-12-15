@@ -60,12 +60,6 @@ page3:Button(
     end
 )
 page3:Button(
-    "Dark Dex",
-    function(t)
-        loadstring(game:HttpGet(("https://pastebin.com/raw/Ht4zRXj8"))()
-    end
-)
-page3:Button(
     "FE KORBLOX R6",
     function(t)
         while wait() do
