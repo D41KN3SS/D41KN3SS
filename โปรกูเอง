@@ -1,0 +1,146 @@
+--1
+wait()
+if game:GetService("CoreGui"):FindFirstChild("Library") then
+    game:GetService("CoreGui"):FindFirstChild("Library"):Destroy()
+end
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/Script/DARKNESS%20NEW%20UI"))()
+MAINTTL = "Darknessไม่ใช่มนุษย์👽" 
+local win = VLib:Window("", Color3.fromRGB(196, 40, 28))
+local Main = win:Tab("รวมโปร")
+
+Main:Button(
+  "หาเซิฟคนน้อยไม่ก็ปิงน้อยไอเอ๋อ",
+  function(t)
+      getgenv().Key = "dfaa96ad60631c4"
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/7b3b355dde7d1ea5e9325e9eab564a094b1884e9/%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%9F"))()
+  end
+)
+Main:Button(
+  "เฉพาะคนที่ไม่ใช่มนุษย์",
+  function(t)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/Script/kick"))()
+  end
+)
+Main:Button(
+  "Sea Tud",
+  function(t)
+      loadstring(game:HttpGetAsync("https://ghostbin.com/B587q/raw"))()
+  end
+)
+Main:Button(
+  "Root หี",
+  function(t)
+      _G.Key = "WHFT-LP69-0VTI-HGR9"
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Root-Hub-Dev/BloxFruit_Script/main/PaidScript.txt"))()
+  end
+)
+Main:Button(
+  "Inf Yield",
+  function(t)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+  end
+)
+Main:Button(
+  "all stud",
+  function(t)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
+  end
+)
+Main:Button(
+    "Strike Hub",
+    function(t)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+    end
+)
+
+local Main = win:Tab("รวมโปร2")
+Main:Button(
+  "ขาไม้จิ้มฟัน R6",
+  function(t)
+      while wait() do
+          pcall(
+              function()
+                  game.Players.LocalPlayer.Character["Right Leg"]:Destroy()
+              end
+          )
+      end
+  end
+)
+Main:Button(
+  "Swag Mode✌🔥",
+  function(t)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+  end
+)
+Main:Button(
+  "Dupe บูมตูด",
+  function(t)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/vyks/vyks/main/NormalLucious.lua'))()
+  end
+)
+Main:Button(
+  "ขาไม้จิ้มฟัน R15",
+  function(t)
+      while wait() do
+          pcall(
+              function()
+                  game.Players.LocalPlayer.Character.RightUpperLeg:Destroy()
+                  game.Players.LocalPlayer.Character.RightLowerLeg:Destroy()
+                  game.Players.LocalPlayer.Character.RightFoot:Destroy()
+                  game.Players.LocalPlayer.Character.RightFoot:Destroy()
+              end
+          )
+      end
+  end
+)
+Main:Button(
+  "โปรHitBox",
+  function(t)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/main/README.md", true))()
+  end
+)
+
+Main:Button("Destroy Gui",function()
+game.CoreGui["Library"]:Destroy()
+end)
+
+local cred = win:Tab("เครดิตครับไอหน้าหี")
+cred:Button("ร้านเติมเกมสุดคุ้ม💛",  function(t)
+setclipboard("https://discord.gg/Z27QFZFr")
+end)
+cred:Label("MADE BY : DARKN3SS#0340")
+
+cred:Button(
+  "ภาพFiveMคมๆ👽🔥",
+  function(t)
+      loadstring(game:HttpGet("https://ghostbin.com/wYAbQ/raw", true))()
+  end
+)
+cred:Button(
+  "Freeควย",
+  function(t)
+      loadstring(game:HttpGet("https://ghostbin.com/iwEjK/raw", true))()
+  end
+)
+cred:Button(
+  "FullBright",
+  function(t)
+      loadstring(game:HttpGet("https://ghostbin.com/LOor8/raw", true))()
+  end
+)
+cred:Button(
+  "Rejoin ไอเอ๋อ",
+  function(t)
+      local ts = game:GetService("TeleportService")
+
+      local p = game:GetService("Players").LocalPlayer
+
+      ts:Teleport(game.PlaceId, p)
+  end
+)
+cred:Button(
+  "บูทหี",
+  function(t)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/bf0abca9ca3c1c789c7148c3c403c81b00eba5bf/FPS"))()
+  end
+)
