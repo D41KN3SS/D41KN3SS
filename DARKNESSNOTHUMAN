@@ -9,7 +9,7 @@ local win = VLib:Window("", Color3.fromRGB(196, 40, 28))
 local Main = win:Tab("รวมโปร")
 
 Main:Button(
-  "หาเซิฟคนน้อยไม่ก็ปิงน้อยไอเอ๋อ",
+  "Sea หี(ไปซื้อไอเอ๋อ)",
   function(t)
       getgenv().Key = "dfaa96ad60631c4"
       loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/7b3b355dde7d1ea5e9325e9eab564a094b1884e9/%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%9F"))()
@@ -22,13 +22,13 @@ Main:Button(
   end
 )
 Main:Button(
-  "Sea Tud",
+  "หาเซิฟคนน้อยไม่ก็ปิงน้อยไอเอ๋อ",
   function(t)
-      loadstring(game:HttpGetAsync("https://ghostbin.com/B587q/raw"))()
+      loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/Script/%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%9F"))()
   end
 )
 Main:Button(
-  "Root หี",
+  "Root หี(ไปซื้อไอเอ๋อ)",
   function(t)
       _G.Key = "WHFT-LP69-0VTI-HGR9"
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Root-Hub-Dev/BloxFruit_Script/main/PaidScript.txt"))()
@@ -55,18 +55,6 @@ Main:Button(
 
 local Main = win:Tab("รวมโปร2")
 Main:Button(
-  "ขาไม้จิ้มฟัน R6",
-  function(t)
-      while wait() do
-          pcall(
-              function()
-                  game.Players.LocalPlayer.Character["Right Leg"]:Destroy()
-              end
-          )
-      end
-  end
-)
-Main:Button(
   "Swag Mode✌🔥",
   function(t)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
@@ -76,6 +64,18 @@ Main:Button(
   "Dupe บูมตูด",
   function(t)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/vyks/vyks/main/NormalLucious.lua'))()
+  end
+)
+Main:Button(
+  "ขาไม้จิ้มฟัน R6",
+  function(t)
+      while wait() do
+          pcall(
+              function()
+                  game.Players.LocalPlayer.Character["Right Leg"]:Destroy()
+              end
+          )
+      end
   end
 )
 Main:Button(
@@ -109,13 +109,7 @@ Main:Button(
 Main:Button("Destroy Gui",function()
 game.CoreGui["Library"]:Destroy()
 end)
-
-local cred = win:Tab("เครดิตครับไอหน้าหี")
-cred:Button("ร้านเติมเกมสุดคุ้ม💛",  function(t)
-setclipboard("https://discord.gg/Z27QFZFr")
-end)
-cred:Label("MADE BY : DARKN3SS#0340")
-
+local cred = win:Tab("Misc")
 cred:Button(
   "ภาพFiveMคมๆ👽🔥",
   function(t)
@@ -150,3 +144,8 @@ cred:Button(
       loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/bf0abca9ca3c1c789c7148c3c403c81b00eba5bf/FPS"))()
   end
 )
+local cred = win:Tab("Sponser")
+cred:Label("ร้านเติมเกมสุดคุ้ม💛")
+cred:Button("Copy Discord Server",  function(t)
+setclipboard("https://discord.gg/Z27QFZFr")
+cred:Label("MADE BY : DARKN3SS#0340")
