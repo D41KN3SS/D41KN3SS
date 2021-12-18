@@ -1,4 +1,4 @@
---1
+--Leakพ่องตาย
 wait(1)
 if game:GetService("CoreGui"):FindFirstChild("Library") then
     game:GetService("CoreGui"):FindFirstChild("Library"):Destroy()
@@ -9,7 +9,7 @@ local win = VLib:Window("", Color3.fromRGB(196, 40, 28))
 local Main = win:Tab("รวมโปร")
 
 Main:Button(
-  "Sea หี(ไปซื้อไอสัส)",
+  "Sea หี ไปซื้อไอสัส",
   function(t)
       getgenv().Key = "dfaa96ad60631c4"
       loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/7b3b355dde7d1ea5e9325e9eab564a094b1884e9/%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%9F"))()
@@ -28,7 +28,7 @@ Main:Button(
   end
 )
 Main:Button(
-  "Root หี(ไปซื้อไอเอ๋อ)",
+  "Root หีไป ซื้อไอเอ๋อ",
   function(t)
       _G.Key = "WHFT-LP69-0VTI-HGR9"
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Root-Hub-Dev/BloxFruit_Script/main/PaidScript.txt"))()
