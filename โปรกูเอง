@@ -1,5 +1,5 @@
 --1
-wait()
+wait(1)
 if game:GetService("CoreGui"):FindFirstChild("Library") then
     game:GetService("CoreGui"):FindFirstChild("Library"):Destroy()
 end
@@ -97,6 +97,12 @@ Main:Button(
   "โปรHitBox",
   function(t)
       loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/main/README.md", true))()
+  end
+)
+Main:Button(
+  "ไล่ฆ่าพวกอิน4kingเอ๋อๆ",
+  function(t)
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/NOOBHUBX/4King/main/NOOB%20HUB.Lua"))()
   end
 )
 
