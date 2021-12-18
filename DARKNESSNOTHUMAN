@@ -6,10 +6,9 @@ end
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/Script/GUI%20E%20KUY"))()
 MAINTTL = "Darknessไม่ใช่มนุษย์👽" 
 local win = VLib:Window("", Color3.fromRGB(196, 40, 28))
-local Main = win:Tab("รวมโปร")
-
+local Main = win:Tab("ควย")
 Main:Button(
-  "Sea หี ไปซื้อไอสัส",
+  "Seaหีไปซื้อไอสัส",
   function(t)
       getgenv().Key = "dfaa96ad60631c4"
       loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/7b3b355dde7d1ea5e9325e9eab564a094b1884e9/%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B4%E0%B8%9F"))()
@@ -28,7 +27,7 @@ Main:Button(
   end
 )
 Main:Button(
-  "Root หีไป ซื้อไอเอ๋อ",
+  "Rootหีไปซื้อไอเอ๋อ",
   function(t)
       _G.Key = "WHFT-LP69-0VTI-HGR9"
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Root-Hub-Dev/BloxFruit_Script/main/PaidScript.txt"))()
@@ -53,7 +52,7 @@ Main:Button(
     end
 )
 
-local Main = win:Tab("รวมโปร2")
+local Main = win:Tab("หน้าหี")
 Main:Button(
   "Swag Mode✌🔥",
   function(t)
@@ -109,7 +108,7 @@ Main:Button(
 Main:Button("Destroy Gui",function()
 game.CoreGui["Library"]:Destroy()
 end)
-local cred = win:Tab("Misc")
+local cred = win:Tab("ไม่ต้องรู้อีสัส")
 cred:Button(
   "ภาพFiveMคมๆ👽🔥",
   function(t)
@@ -129,23 +128,13 @@ cred:Button(
   end
 )
 cred:Button(
-  "Rejoin ไอเอ๋อ",
-  function(t)
-      local ts = game:GetService("TeleportService")
-
-      local p = game:GetService("Players").LocalPlayer
-
-      ts:Teleport(game.PlaceId, p)
-  end
-)
-cred:Button(
   "บูทหี",
   function(t)
       loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/bf0abca9ca3c1c789c7148c3c403c81b00eba5bf/FPS"))()
   end
 )
-local cred = win:Tab("ร้านเติมเกม")
 cred:Label("ร้านเติมเกมสุดคุ้ม💛")
-cred:Button("Copy Discord Server",  function(t)
+cred:Button("Copy Discord Server", function(t)
 setclipboard("https://discord.gg/Z27QFZFr")
 cred:Label("MADE BY : DARKN3SS#0340")
+end)
