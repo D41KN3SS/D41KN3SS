@@ -112,19 +112,19 @@ local cred = win:Tab("ไม่ต้องรู้อีสัส")
 cred:Button(
   "ภาพFiveMคมๆ👽🔥",
   function(t)
-      loadstring(game:HttpGet("https://ghostbin.com/wYAbQ/raw", true))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/bb9253ebf5256dc88b70c5ace642808f6e7df9bd/FiveM"))()
   end
 )
 cred:Button(
   "Freeควย",
   function(t)
-      loadstring(game:HttpGet("https://ghostbin.com/iwEjK/raw", true))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/730e4190fabec0555151a36e396325f4d25aa7a4/Free%20cum"))()
   end
 )
 cred:Button(
   "FullBright",
   function(t)
-      loadstring(game:HttpGet("https://ghostbin.com/LOor8/raw", true))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/c6ed627ac540129e21e79f575eb5f0efc3a67fc7/Fullhee", true))()
   end
 )
 cred:Button(
