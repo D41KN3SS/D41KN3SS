@@ -1,4 +1,4 @@
---Leakพ่องตาย
+--1
 wait(1)
 if game:GetService("CoreGui"):FindFirstChild("Library") then
     game:GetService("CoreGui"):FindFirstChild("Library"):Destroy()
@@ -144,7 +144,7 @@ cred:Button(
       loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/bf0abca9ca3c1c789c7148c3c403c81b00eba5bf/FPS"))()
   end
 )
-local cred = win:Tab("Sponser")
+local cred = win:Tab("ร้านเติมเกม")
 cred:Label("ร้านเติมเกมสุดคุ้ม💛")
 cred:Button("Copy Discord Server",  function(t)
 setclipboard("https://discord.gg/Z27QFZFr")
