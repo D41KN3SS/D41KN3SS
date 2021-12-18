@@ -3,7 +3,7 @@ wait(1)
 if game:GetService("CoreGui"):FindFirstChild("Library") then
     game:GetService("CoreGui"):FindFirstChild("Library"):Destroy()
 end
-local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/Script/DARKNESS%20NEW%20UI"))()
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/Script/GUI%20E%20KUY"))()
 MAINTTL = "Darknessไม่ใช่มนุษย์👽" 
 local win = VLib:Window("", Color3.fromRGB(196, 40, 28))
 local Main = win:Tab("รวมโปร")
