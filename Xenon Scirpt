@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NiceBBMBThai12/NBTScript/main/UI-Library-Robloxx"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/D41KN3SS/D41KN3SS/321ed5dfd59f9775b505e3a70436d92dac9de129/Uixenon"))()
 local window = library:Win()
 local tap1 = window:addtap("Tab1")
 local tap2 = window:addtap("Tab2")
