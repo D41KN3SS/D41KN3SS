@@ -167,5 +167,6 @@ end
 cred:Label("ร้านเติมเกมสุดคุ้ม💛")
 cred:Button("Copy Discord Server", function(t)
 setclipboard("https://discord.gg/Z27QFZFr")
+
 cred:Label("MADE BY : DARKN3SS#0340")
 end)
