@@ -1,0 +1,18 @@
+function EquipWeapon()
+    if game.Players.LocalPlayer.Backpack:FindFirstChild("BoomBox") then
+        local tool = game.Players.LocalPlayer.Backpack:FindFirstChild("BoomBox")
+        wait(.1)
+        game.Players.LocalPlayer.Character.Humanoid:EquipTool("BoomBox")
+    end
+end
+
+fireclickdetector(game:GetService("Workspace")["ร้านขาย boombox"]["Buy BoomBox "].Brick.ClickDetector)
+
+for _, tool in ipairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+    if tool:IsA("Tool") then
+        tool.Parent = game:GetService("Players").LocalPlayer.Character
+    end
+end
+
+game:GetService("Workspace")["LocalPlayer"].BoomBox.Parent = game:GetService("Workspace")["LocalPlayer"].RightUpperLeg
+game:GetService("Workspace")["LocalPlayer"].RightUpperLeg.BoomBox.Parent = game:GetService("Workspace")["LocalPlayer"]
