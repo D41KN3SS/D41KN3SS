@@ -1,0 +1,37 @@
+game:GetService("Workspace")["Sell Box"].Box.JobBox.Position = Vector3.new(101.461, 6.4822, -944.164)
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+    CFrame.new(
+    101.903435,
+    9.0905571,
+    -947.11792,
+    0.0822772607,
+    0.00669132592,
+    -0.996587038,
+    -8.64676153e-09,
+    0.999977469,
+    0.00671408931,
+    0.996609449,
+    -0.000552408223,
+    0.0822754055
+)
+wait(0.5)
+while true do
+    wait(0.5)
+    fireclickdetector(game:GetService("Workspace")["Sell Box"].Box.ClickDetector)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+        CFrame.new(
+        101.903435,
+        9.0905571,
+        -947.11792,
+        0.0822772607,
+        0.00669132592,
+        -0.996587038,
+        -8.64676153e-09,
+        0.999977469,
+        0.00671408931,
+        0.996609449,
+        -0.000552408223,
+        0.0822754055
+    )
+end
