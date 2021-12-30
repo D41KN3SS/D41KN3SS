@@ -568,26 +568,6 @@ Sync.TextSize = 14.000
 
 UICorner_10.Parent = Sync
 
-Background.Name = "Background"
-Background.Parent = UICopied
-Background.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-Background.Position = UDim2.new(0, 676, 0, 266)
-Background.Size = UDim2.new(0, 567, 0, 310)
-local toggledui = false
-		UserInputService.InputBegan:Connect(function(input)
-			pcall(function()
-				if input.KeyCode == Enum.KeyCode.RightControl then
-					if toggledui == false then
-						toggledui = true
-						UICopied.Enabled = false
-					else
-						toggledui = false
-						UICopied.Enabled = true
-					end
-				end
-			end)
-		end)
-
 TpInput.Name = "TpInput "
 TpInput.Parent = Frame2
 TpInput.BackgroundColor3 = Color3.fromRGB(67, 75, 135)
